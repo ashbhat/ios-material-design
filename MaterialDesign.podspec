@@ -7,5 +7,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ashbhat/ios-material-design", :tag => "master" }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
+  s.author = "github"
   s.platform     = :ios, '7.0'
 end
